@@ -1,9 +1,20 @@
 <template>
   <div>
-    <nuxt />
+    <TheHeader />
+    <div class="wrapper">
+      <nuxt class="container" />
+    </div>
   </div>
 </template>
-
+<script lang="ts">
+import { Vue, Component } from 'nuxt-property-decorator'
+@Component({
+  components: {
+    TheHeader: () => import('@/components/common/TheHeader.vue')
+  }
+})
+export default class extends Vue {}
+</script>
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
