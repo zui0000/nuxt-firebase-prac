@@ -6,7 +6,6 @@
     <el-menu-item index="2" :route="{ path: '/posts/' }">
       投稿一覧
     </el-menu-item>
-
     <no-ssr>
       <el-menu-item index="4" style="float: rignt;" :route="{ path: '/' }">
         <span>ログイン</span>

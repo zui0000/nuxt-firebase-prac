@@ -18,7 +18,8 @@
     "@nuxtjs/axios": "^5.3.6",
     "element-ui": "^2.4.11",
     "nuxt": "^2.0.0",
-    "nuxt-property-decorator": "^2.5.1"
+    "nuxt-property-decorator": "^2.5.1",
+    "universal-cookie": "^4.0.3"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.6.0",
